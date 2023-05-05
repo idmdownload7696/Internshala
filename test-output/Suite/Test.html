@@ -1,0 +1,355 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>55/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue May 02 11:32:15 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>198 seconds (198369 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.Homepage_Test.mumbai_jobs()'><b>mumbai_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.login_button()'><b>login_button</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Jobs_Drop_Down_List_Text_Search_Media()'><b>Jobs_Drop_Down_List_Text_Search_Media</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Blank_Password_Error_Msg()'><b>Blank_Password_Error_Msg</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Login_Button()'><b>Login_Button</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_valid_uname_with_blank_password()'><b>login_with_valid_uname_with_blank_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Online_Popular_Traning_select_training_autocad()'><b>Online_Popular_Traning_select_training_autocad</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Email_Field()'><b>Email_Field</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Internship_City_Visibility()'><b>Internship_City_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_empty_credentials()'><b>login_with_empty_credentials</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Wrong_Email_Password_Warnning()'><b>Wrong_Email_Password_Warnning</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Homepage_Test.close_pop_up()'><b>close_pop_up</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.view_all_internships()'><b>view_all_internships</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_blank_uname_with_valid_password()'><b>login_with_blank_uname_with_valid_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_button()'><b>login_button</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>9</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Data_Science()'><b>Data_Science</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>5</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Homepage_Test.hydrabad_jobs()'><b>hydrabad_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.jobs_dropdown_button()'><b>jobs_dropdown_button</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Jobs_Drop_Down_List_Popular_Categories_Visibility()'><b>Jobs_Drop_Down_List_Popular_Categories_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_blank_uname_with_invalid_password()'><b>login_with_blank_uname_with_invalid_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Online_Traning_list_selection()'><b>Online_Traning_list_selection</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Homepage_Test.logo_verification()'><b>logo_verification</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>0</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Online_Popular_Traning_select_training_autocad_Visibility()'><b>Online_Popular_Traning_select_training_autocad_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Homepage_Test.login_pop_up()'><b>login_pop_up</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Online_Traning_list_selection_Visibility()'><b>Online_Traning_list_selection_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Homepage_Test.course_drop_down()'><b>course_drop_down</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.kolkata_jobs()'><b>kolkata_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.site_url_verification()'><b>site_url_verification</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>0</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Internship_Categories_Visibility()'><b>Internship_Categories_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Invalid_Email_Msg()'><b>Invalid_Email_Msg</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Homepage_Test.delhi_ncr_jobs()'><b>delhi_ncr_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>4</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.search_bar_label()'><b>search_bar_label</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>0</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_invalid_username()'><b>login_with_invalid_username</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Homepage_Test.banglore_jobs()'><b>banglore_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.internship_search()'><b>internship_search</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Homepage_Test.chenni_jobs()'><b>chenni_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Internship_Search_Page_Visibility()'><b>Internship_Search_Page_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_invalid_uname_with_blank_password()'><b>login_with_invalid_uname_with_blank_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Homepage_Test.popularcities_jobs()'><b>popularcities_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.search_bar_data_fill()'><b>search_bar_data_fill</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>6</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.intership_drop_down_button()'><b>intership_drop_down_button</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>6</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Homepage_Test.international_jobs()'><b>international_jobs</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>3</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Warning_Close_Button()'><b>Warning_Close_Button</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>7</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Jobs_Drop_Down_List_Text_Search_Media_Visibility()'><b>Jobs_Drop_Down_List_Text_Search_Media_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_uname_invalid_password()'><b>login_with_uname_invalid_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>9</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Jobs_Drop_Down_List_Popular_Locations_Visibility()'><b>Jobs_Drop_Down_List_Popular_Locations_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Blank_Email_Error_Msg()'><b>Blank_Email_Error_Msg</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+<tr>
+<td title='tests.Search_Bar_UI_Test.Data_Science_Visibility()'><b>Data_Science_Visibility</b><br>Test class: tests.Search_Bar_UI_Test</td>
+<td></td>
+<td>5</td>
+<td>tests.Search_Bar_UI_Test@5b247367</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.internship_city()'><b>internship_city</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.internship_categories()'><b>internship_categories</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Login_Pop_Up_Test.login_with_invalid_uname_and_password()'><b>login_with_invalid_uname_and_password</b><br>Test class: tests.Login_Pop_Up_Test</td>
+<td></td>
+<td>2</td>
+<td>tests.Login_Pop_Up_Test@1750fbeb</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Jobs_Drop_Down_List_Popular_Categories()'><b>Jobs_Drop_Down_List_Popular_Categories</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Search_Bar_Test.Jobs_Drop_Down_List_Popular_Locations()'><b>Jobs_Drop_Down_List_Popular_Locations</b><br>Test class: tests.Search_Bar_Test</td>
+<td></td>
+<td>1</td>
+<td>tests.Search_Bar_Test@268f106e</td></tr>
+<tr>
+<td title='tests.Homepage_Test.register()'><b>register</b><br>Test class: tests.Homepage_Test</td>
+<td></td>
+<td>0</td>
+<td>tests.Homepage_Test@402c4085</td></tr>
+<tr>
+<td title='tests.Login_UI_Tests.Password_Field()'><b>Password_Field</b><br>Test class: tests.Login_UI_Tests</td>
+<td></td>
+<td>0</td>
+<td>tests.Login_UI_Tests@7ce69770</td></tr>
+</table><p>
+</body>
+</html>

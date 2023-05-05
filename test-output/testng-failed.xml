@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.Login_Pop_Up_Test">
+        <methods>
+          <include name="login_with_invalid_uname_with_blank_password"/>
+          <include name="login_button"/>
+          <include name="login_with_empty_credentials"/>
+          <include name="login_with_blank_uname_with_valid_password"/>
+          <include name="setup1"/>
+          <include name="login_with_uname_invalid_password"/>
+          <include name="login_with_valid_uname_with_blank_password"/>
+          <include name="login_with_blank_uname_with_invalid_password"/>
+          <include name="login_with_invalid_uname_and_password"/>
+        </methods>
+      </class> <!-- tests.Login_Pop_Up_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

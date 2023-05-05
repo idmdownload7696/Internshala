@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-02T16:37:27 IST" name="Default suite" finished-at="2023-05-02T16:38:07 IST" duration-ms="39813">
+    <groups>
+    </groups>
+    <test started-at="2023-05-02T16:37:27 IST" name="Default test" finished-at="2023-05-02T16:38:07 IST" duration-ms="39813">
+      <class name="tests.Search_Bar_UI_Test">
+        <test-method is-config="true" signature="setup1()[pri:0, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:27 IST" name="setup1" finished-at="2023-05-02T16:37:33 IST" duration-ms="5661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup1 -->
+        <test-method signature="Internship_Search_Page_Visibility()[pri:1, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:33 IST" name="Internship_Search_Page_Visibility" finished-at="2023-05-02T16:37:36 IST" duration-ms="2558" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Internship_Search_Page_Visibility -->
+        <test-method signature="Internship_City_Visibility()[pri:2, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:36 IST" name="Internship_City_Visibility" finished-at="2023-05-02T16:37:39 IST" duration-ms="3292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Internship_City_Visibility -->
+        <test-method signature="Internship_Categories_Visibility()[pri:3, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:39 IST" name="Internship_Categories_Visibility" finished-at="2023-05-02T16:37:41 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Internship_Categories_Visibility -->
+        <test-method signature="Online_Traning_list_selection_Visibility()[pri:4, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:41 IST" name="Online_Traning_list_selection_Visibility" finished-at="2023-05-02T16:37:48 IST" duration-ms="7094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Online_Traning_list_selection_Visibility -->
+        <test-method signature="Data_Science_Visibility()[pri:5, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:48 IST" name="Data_Science_Visibility" finished-at="2023-05-02T16:37:54 IST" duration-ms="6120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Data_Science_Visibility -->
+        <test-method signature="Online_Popular_Traning_select_training_autocad_Visibility()[pri:6, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:54 IST" name="Online_Popular_Traning_select_training_autocad_Visibility" finished-at="2023-05-02T16:37:59 IST" duration-ms="4580" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Online_Popular_Traning_select_training_autocad_Visibility -->
+        <test-method signature="Jobs_Drop_Down_List_Text_Search_Media_Visibility()[pri:7, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:37:59 IST" name="Jobs_Drop_Down_List_Text_Search_Media_Visibility" finished-at="2023-05-02T16:38:02 IST" duration-ms="3031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jobs_Drop_Down_List_Text_Search_Media_Visibility -->
+        <test-method signature="Jobs_Drop_Down_List_Popular_Locations_Visibility()[pri:8, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:38:02 IST" name="Jobs_Drop_Down_List_Popular_Locations_Visibility" finished-at="2023-05-02T16:38:05 IST" duration-ms="3466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jobs_Drop_Down_List_Popular_Locations_Visibility -->
+        <test-method signature="Jobs_Drop_Down_List_Popular_Categories_Visibility()[pri:9, instance:tests.Search_Bar_UI_Test@235ecd9f]" started-at="2023-05-02T16:38:05 IST" name="Jobs_Drop_Down_List_Popular_Categories_Visibility" finished-at="2023-05-02T16:38:07 IST" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Jobs_Drop_Down_List_Popular_Categories_Visibility -->
+      </class> <!-- tests.Search_Bar_UI_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
